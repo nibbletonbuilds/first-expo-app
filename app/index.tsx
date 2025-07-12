@@ -1,15 +1,29 @@
-import { Text, View } from "react-native";
+import React from 'react'
+import { Text, View } from 'react-native'
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+const index = () => {
+	return (
+	<View
+		style={{
+			backgroundColor: "red",
+			flex: 1,
+			justifyContent: 'center',
+			alignItems: 'center'
+		}}
+	>
+
+		<Text
+			style={{
+				fontSize: 100,
+				fontWeight: 800
+			}}
+		>
+
+		FIRST BLOOD!
+
+		</Text>
+	</View>
+	)
 }
+
+export default index
