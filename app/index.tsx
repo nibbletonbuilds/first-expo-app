@@ -5,12 +5,12 @@ import { Text, View } from 'react-native';
 const index = () => {
 	return (
 	<View
-		style={{
-			backgroundColor: "red",
-			flex: 1,
-			justifyContent: 'center',
-			alignItems: 'center'
-		}}
+	style={{
+		backgroundColor: "red",
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center'
+	}}
 	>
 
 		<Text
